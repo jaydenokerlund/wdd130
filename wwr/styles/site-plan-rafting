@@ -2,34 +2,34 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap');
 
 body {
-	font-family: var(paragraph-font);
+	font-family: var(--paragraph-font);
 	max-width: 960px;
 	padding: 20px;
 }
 
 :root {
-	primary-color: #4B8F8C;
-	secondary-color: #04395E;
-	accent1-color: #E0E0CE;
-	accent2color: #F85E00;
+	--primary-color: #4B8F8C;
+	--secondary-color: #04395E;
+	--accent1-color: #E0E0CE;
+	--accent2color: #F85E00;
 
-	heading-font: 'Nunito', sans-serif;
-	paragraph-font: 'Poppins', sans-serif;
+	--heading-font: 'Nunito', sans-serif;
+	--paragraph-font: 'Poppins', sans-serif;
 
-	nav-background-color: #4B8F8C;
-	nav-link-color: #04395E;
-	nav-hover-link-color: #E0E0CE;
-	nav-hover-background-color: #F85E00;
+	--nav-background-color: #4B8F8C;
+	--nav-link-color: #04395E;
+	--nav-hover-link-color: #E0E0CE;
+	--nav-hover-background-color: #F85E00;
 }
 
 h1, h2, h3, h4, h5, h6 {
-	font-family: var(heading-font);
-	color: var(primary-color);
+	font-family: var(--heading-font);
+	color: var(--primary-color);
 }
 
 header {
 	padding: 20px;
-	background-color: var(accent1-color);
+	background-color: var(--accent1-color);
 }
 
 p {
@@ -37,23 +37,23 @@ p {
 }
 
 nav {
-	background-color: var(nav-background-color);
+	background-color: var(--nav-background-color);
 	font-size: 1.2rem;
 	display: flex;
 }
 
 nav a{
 	display: block;
-	color: var(nav-link-color);
+	color: var(--nav-link-color);
 	text-decoration: none;
 	padding: 1rem;
 }
 
 nav a:link, nav a:visited {
-	color: var(nav-link-color);
+	color: var(--nav-link-color);
 }
 
 nav a:hover {
-	color: var(nav-hover-link-color);
-	background-color: var(nav-hover-background-color);
+	color: var(--nav-hover-link-color);
+	background-color: var(--nav-hover-background-color);
 }

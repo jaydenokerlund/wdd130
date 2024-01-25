@@ -1,0 +1,33 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@300&display=swap');
+
+
+:root {
+	--primary-color: #4B8F8C;
+	--secondary-color: #04395E;
+	--accent1-color: #E0E0CE;
+	--accent2color: #F85E00;
+
+	--heading-font: 'Nunito', sans-serif;
+	--paragraph-font: 'Poppins', sans-serif;
+
+	--nav-background-color: #4B8F8C;
+	--nav-link-color: #04395E;
+	--nav-hover-link-color: #E0E0CE;
+	--nav-hover-background-color: #F85E00;
+}
+
+h1, h2, h3, h4, h5, h6 {
+	font-family: var(--heading-font);
+	color: var(--primary-color);
+}
+
+.hero {
+	position: relative;
+}
+
+.hero img {
+	display: block;
+	/* width: 100%; */
+	height: auto;
+	/* position: absolute; */
+}

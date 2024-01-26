@@ -1,6 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Nunito:wght@300&display=swap');
 
-
 :root {
 	--primary-color: #4B8F8C;
 	--secondary-color: #04395E;
@@ -21,13 +20,29 @@ h1, h2, h3, h4, h5, h6 {
 	color: var(--primary-color);
 }
 
+h1 {
+	position: absolute;
+}
+
+article {
+	position: absolute;
+}
+
+article img {
+	float: right;
+}
+
 .hero {
-	position: relative;
+	position: absolute;
 }
 
 .hero img {
 	display: block;
-	/* width: 100%; */
+	width: 100%;
 	height: auto;
 	/* position: absolute; */
+}
+
+footer a{
+	text-decoration: none;
 }

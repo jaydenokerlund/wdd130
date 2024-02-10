@@ -1,0 +1,8 @@
+form {
+	/* background-color: red; */
+	display: grid;
+}
+
+form label {
+	grid-column: 2;
+}

@@ -231,7 +231,7 @@ iframe {
 	margin-left: 60px;
 }
 
-.mainForm {
+.contactForm {
 	width: 650px;
 	height: 500px;
 	margin: 0 auto;
@@ -304,3 +304,49 @@ td {
 	padding: 0px 70px;
 	/* background-color: green; */
 }
+
+
+
+
+/* Home page */
+
+.mainForm {
+	width: 650px;
+	height: 400px;
+	margin: 0 auto;
+	padding: 1rem;
+	border: 1px solid rgba(0, 0, 0, 0.1);
+	border-radius: 0.5rem;
+	background-color: #eee;
+	display: grid;
+	position: absolute;
+	margin-top: 115px;
+	margin-left: 110px;
+}
+
+.mainContent {
+	display: flex;
+	height: 600px;
+	width: 100%;
+	position: relative;
+	/* flex-direction: column; */
+	flex-direction: column;
+	margin-bottom: 90px;
+	/* background-color: red; */
+	text-align: center;
+	width: 50%;
+	float: right;
+}
+
+.mainContent p {
+	font-size: 14px;
+	color: #04395E;
+}
+
+.mainContent img {
+	width: 300px;
+	height: max-content;
+	/* justify-content: space-around; */
+	top: 50px;
+}
+

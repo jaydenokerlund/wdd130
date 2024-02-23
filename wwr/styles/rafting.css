@@ -38,7 +38,7 @@ h1, h2, h3, h4, h5, h6 {
 	color: var(--primary-color);
 }
 
-.aboutH1 {
+.about_h1 {
 	position: absolute;
 	top: 10px;
 }
@@ -54,7 +54,7 @@ article img {
 	top: 110px;
 }
 
-.articleText {
+.article_text {
 	width: 50rem;
 	border: 1px solid black;
 	background-color: #eee;
@@ -80,7 +80,7 @@ article img {
 	justify-content: center;
 }
 
-.heroImg {
+.hero_img {
 	display: block;
 	width: 100%;
 	/* height: 500px; */
@@ -90,7 +90,7 @@ article img {
 
 /* History section */
 
-.historySector {
+.history_sector {
 	display: flex;
 	width: 100%;
 	height: 300px;
@@ -98,13 +98,13 @@ article img {
 	flex-direction: column;
 }
 
-.historySector h2 {
+.history_sector h2 {
 	align-self: center;
 	position: absolute;
 	top: 20px;
 }
 
-.historySector p {
+.history_sector p {
 	top: 100px;
 	position: absolute;
 	align-content: space-around;
@@ -116,7 +116,7 @@ article img {
 
 /* Adventure Section */
 
-.adventureSector {
+.adventure_sector {
 	display: flex;
 	height: 600px;
 	width: 100%;
@@ -124,7 +124,7 @@ article img {
 	/* flex-direction: column; */
 }
 
-.adventureSector h2 {
+.adventure_sector h2 {
 	display: flex;
 	justify-content: center;
 	/* align-self: center; */
@@ -133,14 +133,14 @@ article img {
 	z-index: 1;
 }
 
-.adventureSector img {
+.adventure_sector img {
 	width: 300px;
 	height: max-content;
 	justify-content: space-around;
 	top: 50px;
 }
 
-.adventureImgs {
+.adventure_imgs {
 	display: flex;
 	/* flex-direction: row; */
 	justify-content: space-between;
@@ -202,7 +202,7 @@ footer a{
 
 /* Contact Page */
 
-.contactInfo {
+.contact_info {
 	display: flex;
 	justify-content: space-evenly;
 	align-items: center;
@@ -210,11 +210,11 @@ footer a{
 	height: 600px;
 }
 
-.contactInfo h1, .contactH1 {
+.contact_info h1, .contact_h1 {
 	font-size: 3rem;
 }
 
-.contactCompany {
+.contact_company {
 	font-size: 2rem;
 	margin-right: 500px;
 }
@@ -226,12 +226,12 @@ iframe {
 	top: 300px;
 }
 
-.employeeSector{
+.employee_sector{
 	display: flex;
 	margin-left: 60px;
 }
 
-.contactForm {
+.contact_form {
 	width: 650px;
 	height: 500px;
 	margin: 0 auto;
@@ -286,15 +286,15 @@ table {
 	margin-bottom: 70px;
 }
 
-.tripOne img, .tripTwo img, .tripThree img {
+.trip_one img, .trip_two img, .trip_three img {
 	width: 500px;
 }
 
-.tripOne, .tripTwo, .tripThree {
+.trip_one, .trip_two, .trip_three {
 	width: 500px;
 }
 
-.tripTable {
+.trip_table {
 	width: 100%;
 	/* background-color: red; */
 	justify-content: space-around;
@@ -310,7 +310,7 @@ td {
 
 /* Home page */
 
-.mainForm {
+.main_form {
 	width: 650px;
 	height: 400px;
 	margin: 0 auto;
@@ -324,7 +324,7 @@ td {
 	margin-left: 110px;
 }
 
-.mainContent {
+.main_content {
 	display: flex;
 	height: 600px;
 	width: 100%;
@@ -338,12 +338,12 @@ td {
 	float: right;
 }
 
-.mainContent p {
+.main_content p {
 	font-size: 14px;
 	color: #04395E;
 }
 
-.mainContent img {
+.main_content img {
 	width: 300px;
 	height: max-content;
 	/* justify-content: space-around; */
